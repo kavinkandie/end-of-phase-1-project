@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Dairy Farm Management</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Dairy Farm Management</h1>
+        <button id="themeToggle">Toggle Dark Mode</button>
+    </header>
+
+    <div class="search-bar">
+        <label for="cowSearch"></label>
+        <input type="text" id="cowSearch" placeholder="Search cows...">
+        <label for="healthFilter"></label>
+        <select id="healthFilter">
+            <option value="all">All Status</option>
+            <option value="Healthy">Healthy</option>
+            <option value="Under Observation">Under Observation</option>
+        </select>
+    </div>
+
+    <div class="dashboard">
+        <div class="card">
+            <h2>Cow Registry</h2>
+            <div id="cowsList"></div>
+        </div>
+        <div class="card">
+            <h2>Daily Activities</h2>
+            <div id="activitiesList"></div>
+        </div>
+    </div>
+</div>
+
+<script src="./index.js"></script>
+</body>
+</html>

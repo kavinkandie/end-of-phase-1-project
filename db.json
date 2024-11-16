@@ -1,0 +1,81 @@
+{
+  "cows": [
+    {
+      "id": 1,
+      "name": "Bessie",
+      "breed": "Holstein",
+      "milkProduction": 28.5,
+      "lastMilked": "2024-03-14",
+      "healthStatus": "Healthy"
+    },
+    {
+      "id": 2,
+      "name": "Daisy",
+      "breed": "Jersey",
+      "milkProduction": 22.3,
+      "lastMilked": "2024-03-14",
+      "healthStatus": "Healthy"
+    },
+    {
+      "id": 3,
+      "name": "Luna",
+      "breed": "Brown Swiss",
+      "milkProduction": 25.7,
+      "lastMilked": "2024-03-14",
+      "healthStatus": "Under Observation"
+    },
+    {
+      "id": 4,
+      "name": "Bella",
+      "breed": "Holstein",
+      "milkProduction": 30.1,
+      "lastMilked": "2024-03-14",
+      "healthStatus": "Healthy"
+    },
+    {
+      "id": 5,
+      "name": "Molly",
+      "breed": "Jersey",
+      "milkProduction": 20.8,
+      "lastMilked": "2024-03-14",
+      "healthStatus": "Healthy"
+    }
+  ],
+  "dailyActivities": [
+    {
+      "id": 1,
+      "activity": "Morning Milking",
+      "startTime": "04:00",
+      "duration": 120,
+      "assignedStaff": "John"
+    },
+    {
+      "id": 2,
+      "activity": "Feeding",
+      "startTime": "06:00",
+      "duration": 60,
+      "assignedStaff": "Sarah"
+    },
+    {
+      "id": 3,
+      "activity": "Health Check",
+      "startTime": "08:00",
+      "duration": 90,
+      "assignedStaff": "Dr. Smith"
+    },
+    {
+      "id": 4,
+      "activity": "Evening Milking",
+      "startTime": "16:00",
+      "duration": 120,
+      "assignedStaff": "Mike"
+    },
+    {
+      "id": 5,
+      "activity": "Facility Cleaning",
+      "startTime": "19:00",
+      "duration": 90,
+      "assignedStaff": "Emily"
+    }
+  ]
+}
